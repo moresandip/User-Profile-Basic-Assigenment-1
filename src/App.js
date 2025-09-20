@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="container py-4">
-      <h1 className="mb-4">User Profiles</h1>
+      <h1 className="mb-4 text-center">User Profiles</h1>
 
       {loading ? (
         <div className="d-flex justify-content-center align-items-center" style={{ minHeight: 240 }}>
